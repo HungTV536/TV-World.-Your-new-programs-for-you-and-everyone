@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>📺 TV World - Danh sách kênh</title>
+  <title>Bạn cần phải đăng nhập tên TV360 và FPT PLAY, VTVCab ON.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #1565c0;
+    }
+    input[type="text"] {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto 20px;
+      display: block;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 10px;
+    }
+    li {
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 10px;
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+      color: #0d47a1;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    function filterChannels() {
+      const input = document.getElementById("searchInput").value.toLowerCase();
+      document.querySelectorAll("ul li").forEach(li => {
+        const text = li.textContent.toLowerCase();
+        li.style.display = text.includes(input) ? "block" : "none";
+      });
+    }
+  </script>
+</head>
+<body>
+
+<h1>📺 Danh sách kênh truyền hình & phát thanh</h1>
+<h1>Bạn cần phải đăng nhập (một số kênh)</h1>
+<h1>Nếu bạn vào VieON, vui lòng MUA GÓI NGAY!</h1>
+<input type="text" id="searchInput" onkeyup="filterChannels()" placeholder="🔍 Tìm tên kênh...">
+
+<ul>
+  <!-- VTV -->
+  <li><a href="https://vtvgo.vn/channel/vtv1-1,1.html">VTV1</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv2-1,2.html">VTV2</a></li>
+  <li><a href="https://tv360.vn/tv/vtv2-hd-thu-nghiem-quic?ch=9921&col=1&sect=LIVE&page=home_live&c=0">VTV2 QUIC</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv3-1,3.html">VTV3</a></li>
+  <li><a href="https://tv360.vn/tv/vtv3-llc-thu-nghiem?ch=9908&col=1&sect=LIVE&page=home_live&c=0">VTV3 LLC</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv4-1,4.html">VTV4</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv5-1,5.html">VTV5</a></li>
+  <li><a href="https://tv360.vn/tv/vtv5-llc-thu-nghiem?ch=9909&col=1&sect=LIVE&page=home_live&c=0">VTV5 LLC</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv5-tay-nam-bo-1,7.html">VTV5 Tây Nam Bộ</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv5-tay-nguyen-1,163.html">VTV5 Tây Nguyên</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv-can-tho-1,6.html">VTV Cần Thơ</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv7-1,27.html">VTV7</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv8-1,36.html">VTV8</a></li>
+  <li><a href="https://vtvgo.vn/channel/vtv9-1,39.html">VTV9</a></li>
+
+  <!-- Thiết Yếu -->
+  <li><a href="https://antv.gov.vn/truyen-hinh-truc-tuyen.html">ANTV</a></li>
+  <li><a href="https://qpvn.vn/tv.html">QPVN</a></li>
+
+  <!-- VTVCab ON -->
+  <li><a href="https://www.vtvcab.vn/channel/on-vie-giai-tri-1,VTVcab1_HD.html">VTVCab 1</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-phim-viet-1,VTVcab2_HD.html">VTVCab 2</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-sports-1,VTVcab3_HD.html">VTVCab 3</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-movies-1,VTVcab4_HD.html">VTVCab 4</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-echannel-1,VTVcab5_HD.html">VTVCab 5</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-sports-1,VTVcab6_HD.html">VTVCab 6</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-o2tv-1,VTVcab7_HD.html">VTVCab 7</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-bibi-1,VTVcab8_HD.html">VTVCab 8</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-info-tv-1,VTVcab9_HD.html">VTVCab 9</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-cine-1,VTVcab10_HD.html">VTVCab 10</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-style-1,VTVcab12_HD.html">VTVCab 12</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-homeshopping-1,VTVcab13_SD.html">VTVCab 13</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-music-1,VTVcab15_HD.html">VTVCab 15</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-football-1,VTVcab16_HD.html">VTVCab 16</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-trending-1,VTVcab17_SD.html">VTVCab 17</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-sports-news-1,VTVcab18_HD.html">VTVCab 18</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-vie-dramas-1,VTVcab19_SD.html">VTVCab 19</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-vfamily-1,VTVcab20_SD.html">VTVCab 20</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-kids-1,VTVcab21_HD.html">VTVCab 21</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-life-1,VTVcab22_HD.html">VTVCab 22</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/on-golf-1,VTVcab23_HD.html">VTVCab 23</a></li>
+
+  <!-- HTV -->
+  <li><a href="https://hplus.com.vn/xem-kenh-htv1-2631.html">HTV1</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htv2-hd-2669.html">HTV2</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htv3-2535.html">HTV3</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htv-keys-2528.html">HTV Keys</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htv7-hd-256.html">HTV7</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htv9-hd-2667.html">HTV9</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htv-the-thao-hd-4009.html">HTV Thể Thao</a></li>
+
+  <!-- HTVC -->
+  <li><a href="https://hplus.com.vn/xem-kenh-htvc-thuan-viet-2396.html">HTVC Thuần Việt</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htvc-gia-dinh-full-hd-1080-2394.html">HTVC Gia Đình</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htvc-phu-nu-full-hd-1080-2393.html">HTVC Phụ Nữ</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htvc-ca-nhac-full-hd-1080-2264.html">HTVC Ca Nhạc</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htvc-phim-hd-2399.html">HTVC Phim</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htvc-plus-full-hd-1080-2395.html">HTVC+</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-htvc-du-lich-va-cuoc-song-full-hd-1080-2328.html">HTVC Du Lịch và Cuộc Sống</a></li>
+
+  <!-- THVL -->
+  <li><a href="https://www.thvli.vn/live/thvl1-hd">THVL1</a></li>
+  <li><a href="https://www.thvli.vn/live/thvl2-hd">THVL2</a></li>
+  <li><a href="https://www.thvli.vn/live/thvl3-hd">THVL3</a></li>
+  <li><a href="https://www.thvli.vn/live/thvl4-hd">THVL4</a></li>
+
+  <!-- SCTV -->
+  <li><a href="https://www.vtvcab.vn/channel/sctv1-1,SCTV1_HD.html">SCTV1</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv2-1,SCTV2_SD.html">SCTV2</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv3-1,SCTV3_SD.html">SCTV3</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv4-1,SCTV4_SD.html">SCTV4</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv6-1,SCTV6_SD.html">SCTV6</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv7-1,SCTV7_SD.html">SCTV7</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv8-1,SCTV8_SD.html">SCTV8</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv9-1,SCTV9_SD.html">SCTV9</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv10-1,SCTV10_SD.html">SCTV10</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv11-1,SCTV11_SD.html">SCTV11</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv12-1,SCTV12_SD.html">SCTV12</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv13-1,SCTV13_SD.html">SCTV13</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv14-1,SCTV14_SD.html">SCTV14</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv15-1,SCTV15_HD.html">SCTV15</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv17-1,SCTV17_SD.html">SCTV17</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv18-1,SCTV18_SD.html">SCTV18</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/sctv-phim-tong-hop-1,SCTVPHIMTONGHOP_SD.html">SCTV Phim Tổng Hợp</a></li>
+
+  <!-- Địa Phương -->
+  <li><a href="https://vtvgo.vn/channel/truyen-hinh-ha-noi-1-1,111.html">HanoiTV1</a></li>
+  <li><a href="https://vtvgo.vn/channel/truyen-hinh-ha-noi-2-1,17.html">HanoiTV2</a></li>
+  <li><a href="https://angiangtv.vn/">An Giang</a></li>
+  <li><a href="https://www.brt.vn/live/brt">Bà Rịa Vũng Tàu</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/bac-giang-hd-1,BACGIANG_HD.html">Bắc Ninh G</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/bac-ninh-hd-1,BACNINH_HD.html">Bắc Ninh N</a></li>
+  <li><a href="https://ctvcamau.vn/">Cà Mau</a></li>
+  <li><a href="https://tv360.vn/tv/cao-bang?ch=48\&col=7\&sect=LIVE\&page=home\_live\&c=0">Cao Bằng</a></li>
+  <li><a href="https://thst.vn/">Cần Thơ</a></li>
+  <li><a href="https://danangtv.vn/trang\_chu">Đà Nẵng</a></li>
+  <li><a href="https://drt.vn/truyen-hinh">Đắk Lắk</a></li>
+  <li><a href="https://dienbientv.vn/truyen-hinh/">Điện Biên</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-truyen-hinh-dong-nai-1-83241.html">Đồng Nai 1</a></li>
+  <li><a href="https://hplus.com.vn/xem-kenh-truyen-hinh-dong-nai-2-83242.html">Đồng Nai 2</a></li>
+  <li><a href="https://thdt.vn/">Đồng Tháp</a></li>
+  <li><a href="https://gialaitv.vn/">Gia Lai</a></li>
+  <li><a href="https://hatinhtv.vn/">Hà Tĩnh</a></li>
+  <li><a href="https://huetv.com.vn/">Huế</a></li>
+  <li><a href="https://hungyentv.vn/truc-tuyen">Hưng Yên</a></li>
+  <li><a href="https://ktv.org.vn/">Khánh Hòa</a></li>
+  <li><a href="https://ninhthuantv.vn/">Khánh Hòa 1</a></li>
+  <li><a href="https://thhp.vn/">Hải Phòng 1 và 2</a></li>
+  <li><a href="https://thhp3.vn/">Hải Phòng 3</a></li>
+  <li><a href="https://langsontv.vn/">Lạng Sơn</a></li>
+  <li><a href="https://tv360.vn/tv/lai-chau?ch=68\&col=7\&sect=LIVE\&page=home\_live\&c=0">Lai Châu</a></li>
+  <li><a href="https://laocaitv.vn/truyen-hinh">Lào Cai</a></li>
+  <li><a href="http://lamdongtv.vn/">Lâm Đồng 1</a></li>
+  <li><a href="https://binhthuantv.vn/">Lâm Đồng 2</a></li>
+  <li><a href="https://truyenhinhdaknong.vn/">Lâm Đồng 3</a></li>
+  <li><a href="https://truyenhinhnghean.vn/">Nghệ An</a></li>
+  <li><a href="https://nbtv.vn/truyen-hinh">Ninh Bình</a></li>
+  <li><a href="https://phuthotv.vn/truyen-hinh">Phú Thọ</a></li>
+  <li><a href="https://quangngaitv.vn/truc-tuyen">Quảng Ngãi</a></li>
+  <li><a href="https://baoquangninh.vn/truyen-hinh">Quảng Ninh</a></li>
+  <li><a href="https://quangtritv.vn/#">Quảng Trị</a></li>
+  <li><a href="https://sonlatv.vn/">Sơn La</a></li>
+  <li><a href="https://la34.com.vn/">Tây Ninh 1</a></li>
+  <li><a href="https://tayninhtv.vn/">Tây Ninh 2</a></li>
+  <li><a href="https://thainguyentv.vn/">Thái Nguyên</a></li>
+  <li><a href="https://truyenhinhthanhhoa.vn/truyen-hinh.htm">Thanh Hóa</a></li>
+  <li><a href="https://baotuyenquang.com.vn/">Tuyên Quang</a></li>
+
+  <!-- VOV -->
+  <li><a href="https://vovmedia.vn/vov1">VOV1</a></li>
+  <li><a href="https://vovmedia.vn/vov2">VOV2</a></li>
+  <li><a href="https://vovmedia.vn/vov3">VOV3</a></li>
+  <li><a href="https://vovmedia.vn/vov4-mien-trung">VOV4 Miền Trung</a></li>
+  <li><a href="https://vovmedia.vn/vov4-tay-bac">VOV4 Tây Bắc</a></li>
+  <li><a href="https://vovmedia.vn/vov4-dong-bac">VOV4 Đông Bắc</a></li>
+  <li><a href="https://vovmedia.vn/vov4-tay-nguyen">VOV4 Tây Nguyên</a></li>
+  <li><a href="https://vovmedia.vn/vov4-dong-bang-song-cuu-long">VOV4 Đồng Bằng SCL</a></li>
+  <li><a href="https://vovmedia.vn/vov4-ho-chi-minh">VOV4 TP.HCM</a></li>
+  <li><a href="https://vovmedia.vn/vov5">VOV5</a></li>
+  <li><a href="https://vovmedia.vn/vov5-english-247">VOV5 English</a></li>
+  <li><a href="https://vovmedia.vn/vov-giao-thong-duyen-hai">VOV GT Duyên Hải</a></li>
+  <li><a href="https://vovmedia.vn/vov-giao-thong-ha-noi">VOV GT Hà Nội</a></li>
+  <li><a href="https://vovmedia.vn/vov-giao-thong-ho-chi-minh">VOV GT HCM</a></li>
+  <li><a href="https://vovmedia.vn/vov-mekong">VOV Mekong</a></li>
+  <li><a href="https://vovmedia.vn/vov-fm89">VOV Sức Khỏe</a></li>
+  <li><a href="https://vovmedia.vn/fm90hanoi">FM90 Hà Nội</a></li>
+  <li><a href="https://tv360.vn/tv/fm96?ch=9906&col=7808470&sect=LIVE&page=home_live&c=0">FM96 Hà Nội</a></li>
+  <li><a href="https://truyenhinhthanhhoa.vn/phat-thanh.htm">Thanh Hóa Radio</a></li>
+  <li><a href="https://audio.thvl.vn/radio/phat-thanh">Vĩnh Long Radio</a></li>
+
+  <!-- Quốc tế -->
+  <li><a href="https://www.vtvcab.vn/channel/box-movie-1-hd-1,BOX_MOVIE_1_HD.html">BOX Movie 1</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/box-hits-1,BOX_HIT_HD.html">BOX Hits</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/in-the-box-channel-1,BOX_HD.html">In The Box Channel</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/hollywood-classics-hd-1,HOLLYWOOD_CLASSICS_HD.html">Hollywood Classic</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/happy-kids-hd-1,HAPPY_KIDS_HD.html">Happy Kids</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/dr-fit-hd-1,DR_FIT_HD.html">Dr.Fit</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/woman-hd-1,WOMAN_HD.html">Woman</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/man-hd-1,MAN_HD.html">Man</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/planet-earth-hd-1,PLANET_EARTH_HD.html">Planet Earth</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/music-box-1,MUSIC_BOX_HD.html">Music Box</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/kbs-world-1,KBSWORLD_SD.html">KBS World</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/outdoor-channel-1,Outdoor_Channel.html">Outdoor Channel</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/hgtv-1,HGTV_HD.html">HGTV</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/afn-1,afn_sd.html">AFN</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/arirang-1,ARIRANG_SD.html">Ariang</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/nhk-world-1,NHKWORLD_HD.html">NHK World</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/channel-news-asia-1,CHANNELNEWASIA_SD.html">Channel News Asia</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/dw-1,DW_SD.html">DW</a></li>
+  <li><a href="https://www.vtvcab.vn/channel/france-24-english-1,FRANCE24ENGLISH_SD.html">France 24</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/axn-1/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">AXN</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/warner-tv/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Warner TV</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/cinema-world/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Cinema World</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/bbc-world-news-1/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">BBC News</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/cnn-1/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">CNN</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/cartoon-network/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Cartoon Network</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/cbeebies/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">CBeebies</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/dreamworks-1/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">DreamWork</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/dmax/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">DMAX</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/fashiontv/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Fashion TV</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/bloomberg-1/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Bloomberg</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/discovery-channel/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Discovery Channel</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/discovery-asia/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Discovery Asia</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/animal-planet/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">Animal Planet</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/travel-living/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">TLC</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/bbc-lifestyle/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">BBC Lifestyle</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/bbc-earth/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">BBC Earth</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/abc-australia/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">ABC Australia</a></li>
+  <li><a href="https://vieon.vn/truyen-hinh-truc-tuyen/tv5-monde-asie/?utm_source=google&utm_medium=cpc&utm_campaign=peakads--GG--SEM--EX--Web--BRAND--MAS--ALL--1855B--VIEO--BOS--D--T--AO01&utm_content=p_--k_vieon&utm_term=21983699733--172405515995--vieon--e--c--g--">TV5MONDE</a></li>
+  <li><a href="https://m.xemtv.net/kenh-hbo-truc-tuyen-world-tv.html">HBO</a></li>
+  <li><a href="https://m.xemtv.net/kenh-hbo2-truc-tuyen-world-tv.html">HBO2</a></li>
+  <li><a href="https://m.xemtv.net/kenh-rthk31-truc-tuyen-world-tv.html">RTHK31</a></li>
+  <li><a href="https://m.xemtv.net/kenh-rthk32-truc-tuyen-world-tv.html">RTHK32</a></li>
+  <li><a href="https://m.xemtv.net/kenh-rthk33-truc-tuyen-world-tv.html">RTHK33</a></li>
+  <li><a href="https://m.xemtv.net/kenh-rthk34-truc-tuyen-world-tv.html">RTHK34</a></li>
+  <li><a href="https://m.xemtv.net/kenh-rthk35-truc-tuyen-world-tv.html">RTHK35</a></li>
+  <li><a href="https://m.xemtv.net/kenh-cctv1-truc-tuyen-world-tv.html">CGTN</a></li>
+  <li><a href="https://m.xemtv.net/kenh-rai1-truc-tuyen-world-tv.html">Rai 1 HD</a></li>
+  <li><a href="https://m.xemtv.net/kenh-trt1-truc-tuyen-world-tv.html">TRT1</a></li>
+  <li><a href="https://m.xemtv.net/kenh-trt2-truc-tuyen-world-tv.html">TRT2</a></li>
+  <li><a href="https://m.xemtv.net/kenh-kbs1-truc-tuyen-world-tv.html">KBS1</a></li>
+  <li><a href="https://m.xemtv.net/kenh-kbs2-truc-tuyen-world-tv.html">KBS2</a></li>
+  <li><a href="https://m.xemtv.net/kenh-ebs1-truc-tuyen-world-tv.html">EBS1</a></li>
+  <li><a href="https://m.xemtv.net/kenh-ebs2-truc-tuyen-world-tv.html">EBS2</a></li>
+  <li><a href="https://m.xemtv.net/kenh-viasat-history-truc-tuyen-world-tv.html">Viasat History</a></li>
+  <li><a href="https://m.xemtv.net/kenh-viasat-nature-truc-tuyen-world-tv.html">Viasat Nature</a></li>
+  <li><a href="https://m.xemtv.net/kenh-viasat-explore-truc-tuyen-world-tv.html">Viasat Explorer</a></li>
+  <li><a href="https://m.xemtv.net/kenh-tv1-truc-tuyen-world-tv.html">TV1</a></li>
+  <li><a href="https://m.xemtv.net/kenh-tv2-truc-tuyen-world-tv.html">TV2</a></li>
+  <li><a href="https://m.xemtv.net/kenh-rtnews-truc-tuyen-world-tv.html">RT</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-plus-1?ch=2554&col=7808461&sect=LIVE&page=home_live&c=0">TV360+1</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-plus-2?ch=1&col=7808461&sect=LIVE&page=home_live&c=0">TV360+2</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-plus-3?ch=148&col=7808461&sect=LIVE&page=home_live&c=0">TV360+3</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-plus-4?ch=2458&col=7808461&sect=LIVE&page=home_live&c=0">TV360+4</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-5?ch=9867&col=7808461&sect=LIVE&page=home_live&c=0">TV360+5</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-6?ch=9868&col=7808461&sect=LIVE&page=home_live&c=0">TV360+6</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-7?ch=9869&col=7808461&sect=LIVE&page=home_live&c=0">TV360+7</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-8?ch=9870&col=7808461&sect=LIVE&page=home_live&c=0">TV360+8</a></li>
+  <li><a href="https://tv360.vn/tv/tv360-9?ch=9887&col=7808461&sect=LIVE&page=home_live&c=0">TV360+9</a></li>
+  <li><a href="https://tv360.vn/tv/k-plus-sport-1-hd-50fps?ch=153&col=12&sect=LIVE&page=home_live&c=0">K+ Sport 1</a></li>
+  <li><a href="https://tv360.vn/tv/k-plus-sport-2-hd-50fps?ch=9829&col=12&sect=LIVE&page=home_live&c=0">K+ Sport 2</a></li>
+  <li><a href="https://tv360.vn/tv/kcine-hd?ch=209&col=12&sect=LIVE&page=home_live&c=0">K+ Cine</a></li>
+  <li><a href="https://tv360.vn/tv/k-action-hd?ch=208&col=12&sect=LIVE&page=home_live&c=0">K+ Action</a></li>
+  <li><a href="https://tv360.vn/tv/k-kids-hd?ch=308&col=12&sect=LIVE&page=home_live&c=0">K+ Kids</a></li>
+
+</ul>
+
+
+<!-- BẮT ĐẦU: Khối đăng nhập người dùng -->
+<div id="login-section" style="text-align: center; margin: 30px 0;">
+  <h2>Đăng nhập vào TV World</h2>
+  <input type="text" id="usernameInput" placeholder="Tên tài khoản" style="padding: 10px; width: 250px;"><br><br>
+  <input type="password" id="passwordInput" placeholder="Mật khẩu" style="padding: 10px; width: 250px;"><br><br>
+  <input type="text" id="phoneInput" placeholder="Số điện thoại" style="padding: 10px; width: 250px;"><br><br>
+  <input type="email" id="emailInput" placeholder="Email" style="padding: 10px; width: 250px;"><br><br>
+  <button onclick="login()" style="padding: 10px 20px; background-color: #1976d2; color: white; border: none; border-radius: 5px;">Đăng nhập</button>
+</div>
+
+<div id="account-display" style="display: none; text-align: center; margin-bottom: 20px;">
+  <img src="https://i.imgur.com/IQ1ZbZZ.png" alt="Ảnh tài khoản" width="100" style="border-radius: 50%; margin-bottom: 10px;">
+  <h2 id="welcomeText">Xin chào!</h2>
+  <p id="emailText"></p>
+  <p id="phoneText"></p>
+  <button onclick="logout()" style="margin-top: 20px; padding: 8px 16px; background-color: #c62828; color: white; border: none; border-radius: 5px;">Đăng xuất</button>
+</div>
+
+<script>
+  function login() {
+    const username = document.getElementById("usernameInput").value.trim();
+    const password = document.getElementById("passwordInput").value.trim();
+    const phone = document.getElementById("phoneInput").value.trim();
+    const email = document.getElementById("emailInput").value.trim();
+
+    if (username && password && phone && email) {
+      document.getElementById("login-section").style.display = "none";
+      document.getElementById("account-display").style.display = "block";
+      document.getElementById("welcomeText").innerText = "Xin chào, " + username + "!";
+      document.getElementById("emailText").innerText = "📧 Email: " + email;
+      document.getElementById("phoneText").innerText = "📱 Số điện thoại: " + phone;
+    } else {
+      alert("Vui lòng nhập đầy đủ thông tin.");
+    }
+  }
+
+  function logout() {
+    document.getElementById("login-section").style.display = "block";
+    document.getElementById("account-display").style.display = "none";
+    document.getElementById("usernameInput").value = "";
+    document.getElementById("passwordInput").value = "";
+    document.getElementById("phoneInput").value = "";
+    document.getElementById("emailInput").value = "";
+  }
+</script>
+<!-- KẾT THÚC: Khối đăng nhập người dùng -->
+
+</body>
+</html>
